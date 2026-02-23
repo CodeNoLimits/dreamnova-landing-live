@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #fafafa;
+  --color-primary: #d4af37;
+  --color-accent: #00d4ff;
+}
+
+:root {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #fafafa;
+  overflow-x: hidden;
+}
+
+.font-cinzel {
+  font-family: var(--font-cinzel), serif;
+}
+.font-rajdhani {
+  font-family: var(--font-rajdhani), sans-serif;
+}
+.font-tech {
+  font-family: var(--font-space-mono), monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: #fafafa;
+}
