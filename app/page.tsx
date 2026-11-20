@@ -94,7 +94,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center"><span className="text-[#D4AF37] mb-1 text-lg">148</span> Nachman</div>
             <div className="flex flex-col items-center"><span className="text-[#D4AF37] mb-1 text-lg">63</span> SaG</div>
             <div className="flex flex-col items-center"><span className="text-[#D4AF37] mb-1 text-lg">H=1.846</span> Science</div>
-            <div className="flex flex-col items-center"><span className="text-[#00D4FF] mb-1 text-lg">DCS</span> Brevet Déposé</div>
+            <div className="flex flex-col items-center"><span className="text-[#00D4FF] mb-1 text-lg">DCS</span> Algorithme propriétaire</div>
           </div>
         </motion.div>
       </section>
@@ -129,7 +129,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 border border-[#222] bg-[#0A0A0A] hover:border-[#D4AF37] transition-all">
               <Shield className="text-[#D4AF37] w-10 h-10 mb-6" />
-              <h3 className="text-xl font-bold mb-3 font-cinzel">DCS (Breveté)</h3>
+              <h3 className="text-xl font-bold mb-3 font-cinzel">Score DCS</h3>
               <p className="text-gray-400 text-sm leading-relaxed">Le score de consistance du rêve. Validation mathématique et algorithmique du mérite individuel absolu.</p>
             </div>
             <div className="p-8 border border-[#222] bg-[#0A0A0A] hover:border-[#00D4FF] transition-all">
